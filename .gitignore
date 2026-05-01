@@ -14,4 +14,21 @@ __pycache__/
 photos/
 exports/
 tmp/
+*.bak
+*.docx
+*.pdf
 
+# Local automation / agent state
+.agents/
+.claude/
+.codex/
+.cursor/
+
+# Private exports / health data
+data/
+profiles/
+meal_logs/
+chat_logs/
+*.jpg
+*.jpeg
+*.png
