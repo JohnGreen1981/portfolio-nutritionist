@@ -4,6 +4,19 @@ Telegram-бот нутри-помощник: onboarding, профиль поль
 
 Это очищенная портфельная версия. В репозитории нет production `.env`, `keys.md`, Supabase credentials, пользовательских профилей, истории питания, фотографий еды, health data, chat logs и deployment details.
 
+## Демо
+
+<p align="center">
+  <img src="docs/screenshots/01-profile.png" width="45%" alt="Настройки профиля: вес, рост, цель, аллергии, режим питания" />
+  <img src="docs/screenshots/02-voice-input.png" width="45%" alt="Голосовой лог еды с разбивкой по КБЖУ и подтверждением" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/03-photo-recognition.png" width="45%" alt="Распознавание блюда по фото через vision model" />
+  <img src="docs/screenshots/04-daily-report.png" width="45%" alt="Сводный отчёт за день: список приёмов пищи и итого по КБЖУ" />
+</p>
+
+Слева направо, сверху вниз: персонализированный профиль с целью и аллергиями, голосовой лог с автоматической разбивкой по КБЖУ, распознавание блюда по фото, дневной отчёт.
+
 ## Что показывает проект
 
 - Product-style AI bot с обязательным onboarding.
