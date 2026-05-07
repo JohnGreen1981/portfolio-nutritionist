@@ -32,3 +32,4 @@ chat_logs/
 *.jpg
 *.jpeg
 *.png
+!docs/screenshots/*.png
